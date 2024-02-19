@@ -1,14 +1,19 @@
-Fastcampus Loan API Server using Spring Boot
-Introduction
-Spring Boot + JPA + practice repository for learning Loan API server.
+# Fastcampus Loan API Server using Spring Boot
+
+## Introduction
+
+`Spring Boot` + `JPA` + practice repository for learning Loan API server.
 
 The features are as follows.
 
-JDK 11. (version 8 or higher can be used.)
-Spring Boot 2.7.1.RELEASE
-Gradle 6 or higher
-Apply ORM with Spring Data JPA
-Example
+1. [JDK 11](https://adoptopenjdk.net/). (version 8 or higher can be used.)
+2. [Spring Boot 2.7.1.RELEASE]()
+3. [Gradle 6 or higher](https://gradle.org/)
+4. Apply ORM with [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+
+## Example
+
+```
 {
   "counselId": 1,
   "appliedAt": "2022-10-18 21:37:00",
@@ -20,5 +25,7 @@ Example
   "address": "Somewhere in Gangnam-gu, Seoul",
   "addressDeatil": "What Apartment No. 101, 1st floor No. 101"
 }
-Chapter Description
-5가지 기능의 대출 도메인 프로젝트 챕터별 설명.pdf
+```
+
+## Chapter Description
+[5가지 기능의 대출 도메인 프로젝트 챕터별 설명.pdf](https://github.com/sapzape/fastcampus-loan/files/9934854/default.pdf)
